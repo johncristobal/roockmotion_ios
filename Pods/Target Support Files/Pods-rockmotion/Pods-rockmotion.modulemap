@@ -1,0 +1,6 @@
+framework module Pods_rockmotion {
+  umbrella header "Pods-rockmotion-umbrella.h"
+
+  export *
+  module * { export * }
+}

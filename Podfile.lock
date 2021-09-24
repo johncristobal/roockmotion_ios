@@ -1,0 +1,125 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AppAuth (1.2.0):
+    - AppAuth/Core (= 1.2.0)
+    - AppAuth/ExternalUserAgent (= 1.2.0)
+  - AppAuth/Core (1.2.0)
+  - AppAuth/ExternalUserAgent (1.2.0)
+  - BSGridCollectionViewLayout (1.2.5)
+  - BSImagePicker (2.10.3):
+    - BSGridCollectionViewLayout (= 1.2.5)
+    - BSImageView (= 1.0.3)
+  - BSImageView (1.0.3)
+  - CryptoSwift (1.0.0)
+  - EasyTipView (2.0.4)
+  - FacebookSDK (5.6.0):
+    - FacebookSDK/CoreKit (= 5.6.0)
+    - FacebookSDK/MarketingKit (= 5.6.0)
+  - FacebookSDK/CoreKit (5.6.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookSDK/LoginKit (5.6.0):
+    - FacebookSDK/CoreKit
+    - FBSDKLoginKit (~> 5.0)
+  - FacebookSDK/MarketingKit (5.6.0):
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit (~> 5.0)
+  - FBSDKCoreKit (5.6.0):
+    - FBSDKCoreKit/Basics (= 5.6.0)
+    - FBSDKCoreKit/Core (= 5.6.0)
+  - FBSDKCoreKit/Basics (5.6.0)
+  - FBSDKCoreKit/Core (5.6.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.6.0):
+    - FBSDKLoginKit/Login (= 5.6.0)
+  - FBSDKLoginKit/Login (5.6.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKMarketingKit (5.5.0):
+    - FBSDKCoreKit (~> 5.5)
+  - GoogleMaps (3.4.0):
+    - GoogleMaps/Maps (= 3.4.0)
+  - GoogleMaps/Base (3.4.0)
+  - GoogleMaps/Maps (3.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.4.0):
+    - GoogleMaps/Base (= 3.4.0)
+  - GoogleSignIn (5.0.0):
+    - AppAuth (~> 1.1)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.2):
+    - GTMSessionFetcher/Full (= 1.2.2)
+  - GTMSessionFetcher/Core (1.2.2)
+  - GTMSessionFetcher/Full (1.2.2):
+    - GTMSessionFetcher/Core (= 1.2.2)
+  - Hero (1.4.0)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - BSImagePicker
+  - CryptoSwift
+  - EasyTipView
+  - FacebookSDK
+  - FacebookSDK/LoginKit
+  - GoogleMaps
+  - GooglePlaces
+  - GoogleSignIn
+  - Hero
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AppAuth
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - BSImageView
+    - CryptoSwift
+    - EasyTipView
+    - FacebookSDK
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - Hero
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AppAuth: bce82c76043657c99d91e7882e8a9e1a93650cd4
+  BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
+  BSImagePicker: 07404254f2fcdaf5a2eb403c0f8c337267ce8738
+  BSImageView: a149459433a2687157d034c78e059d30ac7f2544
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
+  FacebookSDK: c91d6e4579b9aa334ae4b6d712f1f4996cf40869
+  FBSDKCoreKit: d6655a343868d4bb5c29a60859bab07c3be14a0b
+  FBSDKLoginKit: c5a623de88a6b0cda35b35582921f6cec2efcc36
+  FBSDKMarketingKit: 570d0c2778a2166b0cd55b301160d662ccbe8927
+  GoogleMaps: 67f4a604f80dd6a22d09c2a507a3a395b9f23060
+  GooglePlaces: 7547289e3fffc8980f4a027be99888e29d59b15d
+  GoogleSignIn: a62edd0516721d2a3db1259a5681b91f9b41c06a
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+
+PODFILE CHECKSUM: 6625aded3731f632b6218b509edf4a7fa2da7dce
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19A603" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Notwifidata" representedClassName="Notwifidata" syncable="YES" codeGenerationType="class">
+        <attribute name="estatus" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="json" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Sesionjson" representedClassName="Sesionjson" syncable="YES" codeGenerationType="class">
+        <attribute name="estatus" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="json" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserData" representedClassName="UserData" syncable="YES" codeGenerationType="class">
+        <attribute name="birthday" optional="YES" attributeType="String"/>
+        <attribute name="edad" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="estatura" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="frecuenciabasal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="full" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fullname" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="pass" optional="YES" attributeType="String"/>
+        <attribute name="peso" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="pseudonym" optional="YES" attributeType="String"/>
+        <attribute name="sexo" optional="YES" attributeType="String"/>
+        <attribute name="tok" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Notwifidata" positionX="-63" positionY="9" width="128" height="90"/>
+        <element name="Sesionjson" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="UserData" positionX="-63" positionY="18" width="128" height="283"/>
+    </elements>
+</model>

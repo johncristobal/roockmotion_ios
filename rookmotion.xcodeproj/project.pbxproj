@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3394BC2A1887994A5283F426 /* Pods_rockmotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9CF9E3CD29E36BF8D0B3F1 /* Pods_rockmotion.framework */; };
+		7D17432F22B3FBB000CB518C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17432E22B3FBB000CB518C /* User.swift */; };
+		7D17433222B7DAE400CB518C /* SesionRookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17433122B7DAE400CB518C /* SesionRookViewController.swift */; };
+		7D22544923298FC300E217C6 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D22544823298FC300E217C6 /* DeviceTableViewCell.swift */; };
+		7D22544C2329904B00E217C6 /* DevicesNewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D22544B2329904B00E217C6 /* DevicesNewTableViewCell.swift */; };
+		7D225450232AB98C00E217C6 /* Actividad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D22544F232AB98C00E217C6 /* Actividad.swift */; };
+		7D36235522B7FE02007DAC3C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36235422B7FE02007DAC3C /* PhotoViewController.swift */; };
+		7D36235722B80FA8007DAC3C /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36235622B80FA8007DAC3C /* Sesion.swift */; };
+		7D36235922B91AEF007DAC3C /* TokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36235822B91AEF007DAC3C /* TokenViewController.swift */; };
+		7D36235B22B92591007DAC3C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36235A22B92591007DAC3C /* DataManager.swift */; };
+		7D36235D22B9296C007DAC3C /* Respuesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36235C22B9296C007DAC3C /* Respuesta.swift */; };
+		7D36237522BB02D7007DAC3C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D36237422BB02D7007DAC3C /* SWRevealViewController.m */; };
+		7D36237822BB047F007DAC3C /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36237722BB047F007DAC3C /* DashboardViewController.swift */; };
+		7D36237B22BB0BD0007DAC3C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36237A22BB0BD0007DAC3C /* MenuViewController.swift */; };
+		7D36237D22BB100D007DAC3C /* MenuCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36237C22BB100D007DAC3C /* MenuCellTableViewCell.swift */; };
+		7D36ABC722B0639F00FC31DC /* Allerta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D36ABC622B0639E00FC31DC /* Allerta-Regular.ttf */; };
+		7D36ABCA22B06EA000FC31DC /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABC922B06EA000FC31DC /* extensions.swift */; };
+		7D36ABCD22B0728100FC31DC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABCC22B0728100FC31DC /* TutorialViewController.swift */; };
+		7D36ABCF22B072C500FC31DC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABCE22B072C500FC31DC /* OnboardingViewController.swift */; };
+		7D36ABD122B0738A00FC31DC /* TutoOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABD022B0738A00FC31DC /* TutoOneViewController.swift */; };
+		7D36ABD322B073EA00FC31DC /* TutoTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABD222B073EA00FC31DC /* TutoTwoViewController.swift */; };
+		7D36ABD522B073F700FC31DC /* TutoThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABD422B073F700FC31DC /* TutoThreeViewController.swift */; };
+		7D36ABD722B126A200FC31DC /* SocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABD622B126A200FC31DC /* SocialLoginViewController.swift */; };
+		7D36ABD922B126B000FC31DC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABD822B126B000FC31DC /* ProfileViewController.swift */; };
+		7D36ABDB22B126C100FC31DC /* SesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABDA22B126C100FC31DC /* SesionViewController.swift */; };
+		7D36ABDD22B12C8400FC31DC /* check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D36ABDC22B12C8400FC31DC /* check.swift */; };
+		7D41DC5922B2E9DD00DB89BD /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D41DC5822B2E9DD00DB89BD /* DevicesViewController.swift */; };
+		7D41DC5B22B2EAE600DB89BD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D41DC5A22B2EAE600DB89BD /* CoreBluetooth.framework */; };
+		7D4F0F2F2317403400C50057 /* ResumeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F0F2E2317403400C50057 /* ResumeSession.swift */; };
+		7D5D3481233E66B500E3543F /* RadarMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5D3480233E66B500E3543F /* RadarMarker.swift */; };
+		7D5D3483233E66E200E3543F /* RadarMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D3482233E66E200E3543F /* RadarMarkerView.xib */; };
+		7D666FAA22BBD1AB00EEE5AB /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D666FA922BBD1AB00EEE5AB /* UserProfileViewController.swift */; };
+		7D6D3DB4230F4BCB001E8E7A /* WeightGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6D3DB3230F4BCB001E8E7A /* WeightGraphViewController.swift */; };
+		7D810E6B22C13230004FC03B /* ResumeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D810E6A22C13230004FC03B /* ResumeMainViewController.swift */; };
+		7D810E6D22C132AA004FC03B /* ResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D810E6C22C132AA004FC03B /* ResumeViewController.swift */; };
+		7D810E6F22C132B8004FC03B /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D810E6E22C132B8004FC03B /* GraphViewController.swift */; };
+		7D810E7122C132C5004FC03B /* AchieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D810E7022C132C5004FC03B /* AchieveViewController.swift */; };
+		7D93B05222C65DFD005D4E89 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D93B04F22C65D9C005D4E89 /* Charts.framework */; };
+		7D93B05322C65DFD005D4E89 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D93B04F22C65D9C005D4E89 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D9FB9C32369F85F00461135 /* Equations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FB9C22369F85F00461135 /* Equations.swift */; };
+		7DA8883523269A6100AA90CC /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8883423269A6100AA90CC /* Branch.swift */; };
+		7DA888382326A9B000AA90CC /* SearchBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA888372326A9B000AA90CC /* SearchBrandViewController.swift */; };
+		7DA8883A2326AB8D00AA90CC /* BranchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA888392326AB8D00AA90CC /* BranchTableViewCell.swift */; };
+		7DA8883C2326AD1700AA90CC /* DetailsBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8883B2326AD1700AA90CC /* DetailsBranchViewController.swift */; };
+		7DA8883E2327F44C00AA90CC /* Photoshare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8883D2327F44C00AA90CC /* Photoshare.swift */; };
+		7DB9BE632339079C00323FD5 /* PeriodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9BE622339079C00323FD5 /* PeriodViewController.swift */; };
+		7DB9BE6C23393AC200323FD5 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9BE6B23393AC200323FD5 /* DateFormat.swift */; };
+		7DB9BE6F233A5A9000323FD5 /* TutoFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9BE6E233A5A9000323FD5 /* TutoFourViewController.swift */; };
+		7DBFB333232BCA2E00616993 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBFB332232BCA2E00616993 /* SelectTimeViewController.swift */; };
+		7DD6994D22D8C0C5009223EF /* ActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6994C22D8C0C5009223EF /* ActivityListViewController.swift */; };
+		7DD6995222D8F22F009223EF /* Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD6995122D8F22E009223EF /* Blue.swift */; };
+		7DDEF63A22AF086700517A69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEF63922AF086700517A69 /* AppDelegate.swift */; };
+		7DDEF63C22AF086700517A69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEF63B22AF086700517A69 /* ViewController.swift */; };
+		7DDEF63F22AF086700517A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEF63D22AF086700517A69 /* Main.storyboard */; };
+		7DDEF64222AF086700517A69 /* rockmotion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEF64022AF086700517A69 /* rockmotion.xcdatamodeld */; };
+		7DDEF64422AF086A00517A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEF64322AF086A00517A69 /* Assets.xcassets */; };
+		7DDEF64722AF086A00517A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEF64522AF086A00517A69 /* LaunchScreen.storyboard */; };
+		7DDEF65222AF0AC600517A69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDEF65122AF0AC600517A69 /* LoginViewController.swift */; };
+		7DDEF65422AF0DE700517A69 /* fondo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7DDEF65322AF0DE700517A69 /* fondo.mp4 */; };
+		7DE419D222DCC98400F35F3F /* Rocksesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE419D122DCC98400F35F3F /* Rocksesion.swift */; };
+		7DF689CC231EAEF40095A55F /* Grafica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF689CB231EAEF40095A55F /* Grafica.swift */; };
+		7DF689CF231EAFE40095A55F /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF689CE231EAFE40095A55F /* Reward.swift */; };
+		8B1241CB232563EA002A2DAC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1241CA232563EA002A2DAC /* MapViewController.swift */; };
+		8B1241D023289AE7002A2DAC /* ImagesMapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1241CF23289AE7002A2DAC /* ImagesMapCollectionViewCell.swift */; };
+		8B3299FC236F40350079D275 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3299FB236F40350079D275 /* BLEManager.swift */; };
+		8B97847422B45FF8004F2836 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97847322B45FF8004F2836 /* Utils.swift */; };
+		8BC8DDA4231AED1C00127BEF /* DashSessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8DDA3231AED1C00127BEF /* DashSessionTableViewCell.swift */; };
+		8BC8DDAB2322099300127BEF /* DevicesMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8DDAA2322099300127BEF /* DevicesMenuViewController.swift */; };
+		8BC8DDAD232210A200127BEF /* DevicesSellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8DDAC232210A200127BEF /* DevicesSellTableViewCell.swift */; };
+		8BC8DDAF232210C500127BEF /* DevicesSelfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8DDAE232210C500127BEF /* DevicesSelfTableViewCell.swift */; };
+		8BC8DDB12322120D00127BEF /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8DDB02322120D00127BEF /* Devices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D93B04E22C65D9C005D4E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D93B04922C65D9C005D4E89 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		7D93B05022C65D9C005D4E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D93B04922C65D9C005D4E89 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		7D93B05422C65DFD005D4E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D93B04922C65D9C005D4E89 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7DB9F12422C56D6400CC622E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D93B05322C65DFD005D4E89 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07D47371B4E323CFC1667B2E /* Pods-rockmotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockmotion.release.xcconfig"; path = "Pods/Target Support Files/Pods-rockmotion/Pods-rockmotion.release.xcconfig"; sourceTree = "<group>"; };
+		2854ED0FFDEAC74CB0541831 /* Pods-rockmotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockmotion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rockmotion/Pods-rockmotion.debug.xcconfig"; sourceTree = "<group>"; };
+		7D17432E22B3FBB000CB518C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7D17433122B7DAE400CB518C /* SesionRookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesionRookViewController.swift; sourceTree = "<group>"; };
+		7D22544823298FC300E217C6 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		7D22544B2329904B00E217C6 /* DevicesNewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesNewTableViewCell.swift; sourceTree = "<group>"; };
+		7D22544F232AB98C00E217C6 /* Actividad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad.swift; sourceTree = "<group>"; };
+		7D36235422B7FE02007DAC3C /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		7D36235622B80FA8007DAC3C /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
+		7D36235822B91AEF007DAC3C /* TokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenViewController.swift; sourceTree = "<group>"; };
+		7D36235A22B92591007DAC3C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7D36235C22B9296C007DAC3C /* Respuesta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respuesta.swift; sourceTree = "<group>"; };
+		7D36237222BB02D6007DAC3C /* rockmotion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rockmotion-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D36237322BB02D7007DAC3C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7D36237422BB02D7007DAC3C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7D36237722BB047F007DAC3C /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		7D36237A22BB0BD0007DAC3C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7D36237C22BB100D007DAC3C /* MenuCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellTableViewCell.swift; sourceTree = "<group>"; };
+		7D36ABC622B0639E00FC31DC /* Allerta-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Allerta-Regular.ttf"; sourceTree = "<group>"; };
+		7D36ABC922B06EA000FC31DC /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		7D36ABCC22B0728100FC31DC /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		7D36ABCE22B072C500FC31DC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		7D36ABD022B0738A00FC31DC /* TutoOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutoOneViewController.swift; sourceTree = "<group>"; };
+		7D36ABD222B073EA00FC31DC /* TutoTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutoTwoViewController.swift; sourceTree = "<group>"; };
+		7D36ABD422B073F700FC31DC /* TutoThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutoThreeViewController.swift; sourceTree = "<group>"; };
+		7D36ABD622B126A200FC31DC /* SocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginViewController.swift; sourceTree = "<group>"; };
+		7D36ABD822B126B000FC31DC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7D36ABDA22B126C100FC31DC /* SesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesionViewController.swift; sourceTree = "<group>"; };
+		7D36ABDC22B12C8400FC31DC /* check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check.swift; sourceTree = "<group>"; };
+		7D41DC5822B2E9DD00DB89BD /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		7D41DC5A22B2EAE600DB89BD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		7D4F0F2E2317403400C50057 /* ResumeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeSession.swift; sourceTree = "<group>"; };
+		7D5D3480233E66B500E3543F /* RadarMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarMarker.swift; sourceTree = "<group>"; };
+		7D5D3482233E66E200E3543F /* RadarMarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RadarMarkerView.xib; path = SWRevealViewController/RadarMarkerView.xib; sourceTree = "<group>"; };
+		7D666FA922BBD1AB00EEE5AB /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		7D6D3DB3230F4BCB001E8E7A /* WeightGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightGraphViewController.swift; sourceTree = "<group>"; };
+		7D810E6A22C13230004FC03B /* ResumeMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeMainViewController.swift; sourceTree = "<group>"; };
+		7D810E6C22C132AA004FC03B /* ResumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewController.swift; sourceTree = "<group>"; };
+		7D810E6E22C132B8004FC03B /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		7D810E7022C132C5004FC03B /* AchieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveViewController.swift; sourceTree = "<group>"; };
+		7D93B04922C65D9C005D4E89 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
+		7D9FB9C22369F85F00461135 /* Equations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equations.swift; sourceTree = "<group>"; };
+		7DA8883423269A6100AA90CC /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		7DA888372326A9B000AA90CC /* SearchBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBrandViewController.swift; sourceTree = "<group>"; };
+		7DA888392326AB8D00AA90CC /* BranchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchTableViewCell.swift; sourceTree = "<group>"; };
+		7DA8883B2326AD1700AA90CC /* DetailsBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsBranchViewController.swift; sourceTree = "<group>"; };
+		7DA8883D2327F44C00AA90CC /* Photoshare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photoshare.swift; sourceTree = "<group>"; };
+		7DB9BE622339079C00323FD5 /* PeriodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodViewController.swift; sourceTree = "<group>"; };
+		7DB9BE6B23393AC200323FD5 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		7DB9BE6E233A5A9000323FD5 /* TutoFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutoFourViewController.swift; sourceTree = "<group>"; };
+		7DBFB332232BCA2E00616993 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		7DD6994C22D8C0C5009223EF /* ActivityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListViewController.swift; sourceTree = "<group>"; };
+		7DD6995122D8F22E009223EF /* Blue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue.swift; sourceTree = "<group>"; };
+		7DDEF63622AF086700517A69 /* RookMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RookMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDEF63922AF086700517A69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DDEF63B22AF086700517A69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DDEF63E22AF086700517A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DDEF64122AF086700517A69 /* rockmotion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rockmotion.xcdatamodel; sourceTree = "<group>"; };
+		7DDEF64322AF086A00517A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DDEF64622AF086A00517A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DDEF64822AF086A00517A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDEF65122AF0AC600517A69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7DDEF65322AF0DE700517A69 /* fondo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fondo.mp4; sourceTree = "<group>"; };
+		7DE419D122DCC98400F35F3F /* Rocksesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocksesion.swift; sourceTree = "<group>"; };
+		7DF689CB231EAEF40095A55F /* Grafica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grafica.swift; sourceTree = "<group>"; };
+		7DF689CE231EAFE40095A55F /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		8B1241CA232563EA002A2DAC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8B1241CF23289AE7002A2DAC /* ImagesMapCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesMapCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B3299FB236F40350079D275 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		8B97847322B45FF8004F2836 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8BC8DDA3231AED1C00127BEF /* DashSessionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashSessionTableViewCell.swift; sourceTree = "<group>"; };
+		8BC8DDAA2322099300127BEF /* DevicesMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesMenuViewController.swift; sourceTree = "<group>"; };
+		8BC8DDAC232210A200127BEF /* DevicesSellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesSellTableViewCell.swift; sourceTree = "<group>"; };
+		8BC8DDAE232210C500127BEF /* DevicesSelfTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesSelfTableViewCell.swift; sourceTree = "<group>"; };
+		8BC8DDB02322120D00127BEF /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		CD9CF9E3CD29E36BF8D0B3F1 /* Pods_rockmotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rockmotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DDEF63322AF086700517A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D93B05222C65DFD005D4E89 /* Charts.framework in Frameworks */,
+				7D41DC5B22B2EAE600DB89BD /* CoreBluetooth.framework in Frameworks */,
+				3394BC2A1887994A5283F426 /* Pods_rockmotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A3B564E7AD3179AB879512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2854ED0FFDEAC74CB0541831 /* Pods-rockmotion.debug.xcconfig */,
+				07D47371B4E323CFC1667B2E /* Pods-rockmotion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D17432D22B3FBA000CB518C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D17432E22B3FBB000CB518C /* User.swift */,
+				7D36235622B80FA8007DAC3C /* Sesion.swift */,
+				7D36235C22B9296C007DAC3C /* Respuesta.swift */,
+				7D36235A22B92591007DAC3C /* DataManager.swift */,
+				7DD6995122D8F22E009223EF /* Blue.swift */,
+				7DE419D122DCC98400F35F3F /* Rocksesion.swift */,
+				7D4F0F2E2317403400C50057 /* ResumeSession.swift */,
+				7DF689CB231EAEF40095A55F /* Grafica.swift */,
+				7DF689CE231EAFE40095A55F /* Reward.swift */,
+				8BC8DDB02322120D00127BEF /* Devices.swift */,
+				7DA8883423269A6100AA90CC /* Branch.swift */,
+				7DA8883D2327F44C00AA90CC /* Photoshare.swift */,
+				7D22544F232AB98C00E217C6 /* Actividad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D17433022B7DACB00CB518C /* sesion */ = {
+			isa = PBXGroup;
+			children = (
+				7D41DC5722B2E99B00DB89BD /* bluetooth */,
+				7D17433122B7DAE400CB518C /* SesionRookViewController.swift */,
+				7DD6994C22D8C0C5009223EF /* ActivityListViewController.swift */,
+				7D36235422B7FE02007DAC3C /* PhotoViewController.swift */,
+				7DBFB332232BCA2E00616993 /* SelectTimeViewController.swift */,
+			);
+			path = sesion;
+			sourceTree = "<group>";
+		};
+		7D36237122BB02A5007DAC3C /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D36237322BB02D7007DAC3C /* SWRevealViewController.h */,
+				7D36237422BB02D7007DAC3C /* SWRevealViewController.m */,
+				7D36237222BB02D6007DAC3C /* rockmotion-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		7D36237622BB0460007DAC3C /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				7D36237722BB047F007DAC3C /* DashboardViewController.swift */,
+				8BC8DDA3231AED1C00127BEF /* DashSessionTableViewCell.swift */,
+				7DB9BE622339079C00323FD5 /* PeriodViewController.swift */,
+			);
+			path = dashboard;
+			sourceTree = "<group>";
+		};
+		7D36237922BB0BBE007DAC3C /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				7D36238122BBD100007DAC3C /* userdata */,
+				8BC8DDA82322095D00127BEF /* devices */,
+				7D36237A22BB0BD0007DAC3C /* MenuViewController.swift */,
+				7D36237C22BB100D007DAC3C /* MenuCellTableViewCell.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		7D36238122BBD100007DAC3C /* userdata */ = {
+			isa = PBXGroup;
+			children = (
+				7D666FA922BBD1AB00EEE5AB /* UserProfileViewController.swift */,
+			);
+			path = userdata;
+			sourceTree = "<group>";
+		};
+		7D36ABC822B06E9300FC31DC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D36ABC922B06EA000FC31DC /* extensions.swift */,
+				7D36ABDC22B12C8400FC31DC /* check.swift */,
+				8B97847322B45FF8004F2836 /* Utils.swift */,
+				7DB9BE6B23393AC200323FD5 /* DateFormat.swift */,
+				8B3299FB236F40350079D275 /* BLEManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7D36ABCB22B0724600FC31DC /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7D36ABCC22B0728100FC31DC /* TutorialViewController.swift */,
+				7D36ABCE22B072C500FC31DC /* OnboardingViewController.swift */,
+				7D36ABD022B0738A00FC31DC /* TutoOneViewController.swift */,
+				7D36ABD222B073EA00FC31DC /* TutoTwoViewController.swift */,
+				7D36ABD422B073F700FC31DC /* TutoThreeViewController.swift */,
+				7DB9BE6E233A5A9000323FD5 /* TutoFourViewController.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		7D41DC5722B2E99B00DB89BD /* bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				7D41DC5822B2E9DD00DB89BD /* DevicesViewController.swift */,
+				7D22544823298FC300E217C6 /* DeviceTableViewCell.swift */,
+				7D22544B2329904B00E217C6 /* DevicesNewTableViewCell.swift */,
+			);
+			name = bluetooth;
+			path = ../bluetooth;
+			sourceTree = "<group>";
+		};
+		7D6D3DB1230F4BB5001E8E7A /* weight */ = {
+			isa = PBXGroup;
+			children = (
+				7D6D3DB3230F4BCB001E8E7A /* WeightGraphViewController.swift */,
+			);
+			path = weight;
+			sourceTree = "<group>";
+		};
+		7D810E6922C13216004FC03B /* resumen */ = {
+			isa = PBXGroup;
+			children = (
+				7D810E6A22C13230004FC03B /* ResumeMainViewController.swift */,
+				7D810E6C22C132AA004FC03B /* ResumeViewController.swift */,
+				7D810E6E22C132B8004FC03B /* GraphViewController.swift */,
+				7D810E7022C132C5004FC03B /* AchieveViewController.swift */,
+				7D5D3480233E66B500E3543F /* RadarMarker.swift */,
+			);
+			path = resumen;
+			sourceTree = "<group>";
+		};
+		7D93B04A22C65D9C005D4E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D93B04F22C65D9C005D4E89 /* Charts.framework */,
+				7D93B05122C65D9C005D4E89 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D9FB9C02369F84300461135 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7D9FB9C22369F85F00461135 /* Equations.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7DDEF62D22AF086700517A69 = {
+			isa = PBXGroup;
+			children = (
+				7DDEF63822AF086700517A69 /* rookmotion */,
+				7DDEF63722AF086700517A69 /* Products */,
+				03A3B564E7AD3179AB879512 /* Pods */,
+				E17C0D4FC5CB3F61DC07F400 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDEF63722AF086700517A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEF63622AF086700517A69 /* RookMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDEF63822AF086700517A69 /* rookmotion */ = {
+			isa = PBXGroup;
+			children = (
+				7D93B04922C65D9C005D4E89 /* Charts.xcodeproj */,
+				7D36237122BB02A5007DAC3C /* SWRevealViewController */,
+				7D36ABC622B0639E00FC31DC /* Allerta-Regular.ttf */,
+				7DDEF65322AF0DE700517A69 /* fondo.mp4 */,
+				7DDEF63922AF086700517A69 /* AppDelegate.swift */,
+				7D36ABC822B06E9300FC31DC /* Utils */,
+				7D17432D22B3FBA000CB518C /* Model */,
+				7DDEF65022AF0A4C00517A69 /* controller */,
+				7D9FB9C02369F84300461135 /* lib */,
+				7DDEF63D22AF086700517A69 /* Main.storyboard */,
+				7D5D3482233E66E200E3543F /* RadarMarkerView.xib */,
+				7DDEF64322AF086A00517A69 /* Assets.xcassets */,
+				7DDEF64522AF086A00517A69 /* LaunchScreen.storyboard */,
+				7DDEF64822AF086A00517A69 /* Info.plist */,
+				7DDEF64022AF086700517A69 /* rockmotion.xcdatamodeld */,
+			);
+			path = rookmotion;
+			sourceTree = "<group>";
+		};
+		7DDEF64E22AF0A1200517A69 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEF65122AF0AC600517A69 /* LoginViewController.swift */,
+				7D36ABD622B126A200FC31DC /* SocialLoginViewController.swift */,
+				7D36ABD822B126B000FC31DC /* ProfileViewController.swift */,
+				7D36235822B91AEF007DAC3C /* TokenViewController.swift */,
+				7D36ABDA22B126C100FC31DC /* SesionViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		7DDEF64F22AF0A3B00517A69 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				7DDEF63B22AF086700517A69 /* ViewController.swift */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		7DDEF65022AF0A4C00517A69 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B1241C8232563C6002A2DAC /* map */,
+				7D6D3DB1230F4BB5001E8E7A /* weight */,
+				7D810E6922C13216004FC03B /* resumen */,
+				7D36237922BB0BBE007DAC3C /* menu */,
+				7D36237622BB0460007DAC3C /* dashboard */,
+				7D17433022B7DACB00CB518C /* sesion */,
+				7D36ABCB22B0724600FC31DC /* onboarding */,
+				7DDEF64F22AF0A3B00517A69 /* splash */,
+				7DDEF64E22AF0A1200517A69 /* login */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		8B1241C8232563C6002A2DAC /* map */ = {
+			isa = PBXGroup;
+			children = (
+				8B1241CA232563EA002A2DAC /* MapViewController.swift */,
+				7DA888372326A9B000AA90CC /* SearchBrandViewController.swift */,
+				7DA888392326AB8D00AA90CC /* BranchTableViewCell.swift */,
+				7DA8883B2326AD1700AA90CC /* DetailsBranchViewController.swift */,
+				8B1241CF23289AE7002A2DAC /* ImagesMapCollectionViewCell.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		8BC8DDA82322095D00127BEF /* devices */ = {
+			isa = PBXGroup;
+			children = (
+				8BC8DDAA2322099300127BEF /* DevicesMenuViewController.swift */,
+				8BC8DDAC232210A200127BEF /* DevicesSellTableViewCell.swift */,
+				8BC8DDAE232210C500127BEF /* DevicesSelfTableViewCell.swift */,
+			);
+			path = devices;
+			sourceTree = "<group>";
+		};
+		E17C0D4FC5CB3F61DC07F400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D41DC5A22B2EAE600DB89BD /* CoreBluetooth.framework */,
+				CD9CF9E3CD29E36BF8D0B3F1 /* Pods_rockmotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DDEF63522AF086700517A69 /* RookMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDEF64B22AF086A00517A69 /* Build configuration list for PBXNativeTarget "RookMotion" */;
+			buildPhases = (
+				53BFD4FF5E440C7F35FE17F4 /* [CP] Check Pods Manifest.lock */,
+				7DDEF63222AF086700517A69 /* Sources */,
+				7DDEF63322AF086700517A69 /* Frameworks */,
+				7DDEF63422AF086700517A69 /* Resources */,
+				379C12596B7A3AE940D2ED69 /* [CP] Embed Pods Frameworks */,
+				8F8892CDFC401A917F5363B8 /* [CP] Copy Pods Resources */,
+				7DB9F12422C56D6400CC622E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D93B05522C65DFD005D4E89 /* PBXTargetDependency */,
+			);
+			name = RookMotion;
+			productName = rockmotion;
+			productReference = 7DDEF63622AF086700517A69 /* RookMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDEF62E22AF086700517A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = RookMotion;
+				TargetAttributes = {
+					7DDEF63522AF086700517A69 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7DDEF63122AF086700517A69 /* Build configuration list for PBXProject "rookmotion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DDEF62D22AF086700517A69;
+			productRefGroup = 7DDEF63722AF086700517A69 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7D93B04A22C65D9C005D4E89 /* Products */;
+					ProjectRef = 7D93B04922C65D9C005D4E89 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7DDEF63522AF086700517A69 /* RookMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7D93B04F22C65D9C005D4E89 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 7D93B04E22C65D9C005D4E89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D93B05122C65D9C005D4E89 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 7D93B05022C65D9C005D4E89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DDEF63422AF086700517A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDEF64722AF086A00517A69 /* LaunchScreen.storyboard in Resources */,
+				7D36ABC722B0639F00FC31DC /* Allerta-Regular.ttf in Resources */,
+				7DDEF64422AF086A00517A69 /* Assets.xcassets in Resources */,
+				7DDEF65422AF0DE700517A69 /* fondo.mp4 in Resources */,
+				7DDEF63F22AF086700517A69 /* Main.storyboard in Resources */,
+				7D5D3483233E66E200E3543F /* RadarMarkerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		379C12596B7A3AE940D2ED69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rockmotion/Pods-rockmotion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/BSImagePicker/BSImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/BSImageView/BSImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSGridCollectionViewLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTipView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rockmotion/Pods-rockmotion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53BFD4FF5E440C7F35FE17F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rockmotion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F8892CDFC401A917F5363B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rockmotion/Pods-rockmotion-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rockmotion/Pods-rockmotion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DDEF63222AF086700517A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA8883C2326AD1700AA90CC /* DetailsBranchViewController.swift in Sources */,
+				7D810E6B22C13230004FC03B /* ResumeMainViewController.swift in Sources */,
+				7D36ABCA22B06EA000FC31DC /* extensions.swift in Sources */,
+				7D666FAA22BBD1AB00EEE5AB /* UserProfileViewController.swift in Sources */,
+				7DB9BE6F233A5A9000323FD5 /* TutoFourViewController.swift in Sources */,
+				7D36235D22B9296C007DAC3C /* Respuesta.swift in Sources */,
+				7DB9BE6C23393AC200323FD5 /* DateFormat.swift in Sources */,
+				7DF689CF231EAFE40095A55F /* Reward.swift in Sources */,
+				7DA8883A2326AB8D00AA90CC /* BranchTableViewCell.swift in Sources */,
+				7DE419D222DCC98400F35F3F /* Rocksesion.swift in Sources */,
+				7D41DC5922B2E9DD00DB89BD /* DevicesViewController.swift in Sources */,
+				7DDEF65222AF0AC600517A69 /* LoginViewController.swift in Sources */,
+				7D36235922B91AEF007DAC3C /* TokenViewController.swift in Sources */,
+				7D6D3DB4230F4BCB001E8E7A /* WeightGraphViewController.swift in Sources */,
+				7DDEF64222AF086700517A69 /* rockmotion.xcdatamodeld in Sources */,
+				7D5D3481233E66B500E3543F /* RadarMarker.swift in Sources */,
+				7D17432F22B3FBB000CB518C /* User.swift in Sources */,
+				7D36237B22BB0BD0007DAC3C /* MenuViewController.swift in Sources */,
+				7D22544923298FC300E217C6 /* DeviceTableViewCell.swift in Sources */,
+				7D810E7122C132C5004FC03B /* AchieveViewController.swift in Sources */,
+				8BC8DDAF232210C500127BEF /* DevicesSelfTableViewCell.swift in Sources */,
+				8BC8DDB12322120D00127BEF /* Devices.swift in Sources */,
+				7DF689CC231EAEF40095A55F /* Grafica.swift in Sources */,
+				8BC8DDAB2322099300127BEF /* DevicesMenuViewController.swift in Sources */,
+				7D36ABD322B073EA00FC31DC /* TutoTwoViewController.swift in Sources */,
+				7DA8883523269A6100AA90CC /* Branch.swift in Sources */,
+				7DA888382326A9B000AA90CC /* SearchBrandViewController.swift in Sources */,
+				7D36ABD122B0738A00FC31DC /* TutoOneViewController.swift in Sources */,
+				7D4F0F2F2317403400C50057 /* ResumeSession.swift in Sources */,
+				7DDEF63C22AF086700517A69 /* ViewController.swift in Sources */,
+				7D225450232AB98C00E217C6 /* Actividad.swift in Sources */,
+				8B1241CB232563EA002A2DAC /* MapViewController.swift in Sources */,
+				7D36ABDB22B126C100FC31DC /* SesionViewController.swift in Sources */,
+				7D36237522BB02D7007DAC3C /* SWRevealViewController.m in Sources */,
+				8B97847422B45FF8004F2836 /* Utils.swift in Sources */,
+				7D810E6D22C132AA004FC03B /* ResumeViewController.swift in Sources */,
+				7D36ABD922B126B000FC31DC /* ProfileViewController.swift in Sources */,
+				8BC8DDA4231AED1C00127BEF /* DashSessionTableViewCell.swift in Sources */,
+				7D36ABCF22B072C500FC31DC /* OnboardingViewController.swift in Sources */,
+				7D9FB9C32369F85F00461135 /* Equations.swift in Sources */,
+				7DBFB333232BCA2E00616993 /* SelectTimeViewController.swift in Sources */,
+				7D17433222B7DAE400CB518C /* SesionRookViewController.swift in Sources */,
+				8BC8DDAD232210A200127BEF /* DevicesSellTableViewCell.swift in Sources */,
+				7D36ABCD22B0728100FC31DC /* TutorialViewController.swift in Sources */,
+				7D36237822BB047F007DAC3C /* DashboardViewController.swift in Sources */,
+				7D36ABD722B126A200FC31DC /* SocialLoginViewController.swift in Sources */,
+				7DDEF63A22AF086700517A69 /* AppDelegate.swift in Sources */,
+				7D36235722B80FA8007DAC3C /* Sesion.swift in Sources */,
+				8B3299FC236F40350079D275 /* BLEManager.swift in Sources */,
+				7D36ABDD22B12C8400FC31DC /* check.swift in Sources */,
+				8B1241D023289AE7002A2DAC /* ImagesMapCollectionViewCell.swift in Sources */,
+				7D810E6F22C132B8004FC03B /* GraphViewController.swift in Sources */,
+				7D36235B22B92591007DAC3C /* DataManager.swift in Sources */,
+				7DA8883E2327F44C00AA90CC /* Photoshare.swift in Sources */,
+				7D36235522B7FE02007DAC3C /* PhotoViewController.swift in Sources */,
+				7D36237D22BB100D007DAC3C /* MenuCellTableViewCell.swift in Sources */,
+				7D22544C2329904B00E217C6 /* DevicesNewTableViewCell.swift in Sources */,
+				7DD6994D22D8C0C5009223EF /* ActivityListViewController.swift in Sources */,
+				7D36ABD522B073F700FC31DC /* TutoThreeViewController.swift in Sources */,
+				7DD6995222D8F22F009223EF /* Blue.swift in Sources */,
+				7DB9BE632339079C00323FD5 /* PeriodViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D93B05522C65DFD005D4E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 7D93B05422C65DFD005D4E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DDEF63D22AF086700517A69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEF63E22AF086700517A69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DDEF64522AF086A00517A69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDEF64622AF086A00517A69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DDEF64922AF086A00517A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DDEF64A22AF086A00517A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DDEF64C22AF086A00517A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2854ED0FFDEAC74CB0541831 /* Pods-rockmotion.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 954C95V3JL;
+				INFOPLIST_FILE = "$(SRCROOT)/rookmotion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miituo.rookmotionn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rookmotion/SWRevealViewController/rockmotion-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7DDEF64D22AF086A00517A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D47371B4E323CFC1667B2E /* Pods-rockmotion.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 954C95V3JL;
+				INFOPLIST_FILE = "$(SRCROOT)/rookmotion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miituo.rookmotionn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rookmotion/SWRevealViewController/rockmotion-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DDEF63122AF086700517A69 /* Build configuration list for PBXProject "rookmotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEF64922AF086A00517A69 /* Debug */,
+				7DDEF64A22AF086A00517A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDEF64B22AF086A00517A69 /* Build configuration list for PBXNativeTarget "RookMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDEF64C22AF086A00517A69 /* Debug */,
+				7DDEF64D22AF086A00517A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7DDEF64022AF086700517A69 /* rockmotion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DDEF64122AF086700517A69 /* rockmotion.xcdatamodel */,
+			);
+			currentVersion = 7DDEF64122AF086700517A69 /* rockmotion.xcdatamodel */;
+			path = rockmotion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7DDEF62E22AF086700517A69 /* Project object */;
+}
